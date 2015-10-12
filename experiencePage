@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Joe Johnson Resume</title>
+</head>
+<body>
+
+<h1>
+Resume
+<h1>
+
+<h2>
+Joe Johnson
+<h2>
+
+
+<h2>
+Experience
+<h2>
+
+<p>			
+I recently graduated from a Front-End Web Development course at General Assembly where I learned HTML, CSS, JavaScript, jQuery and how to be an awesome Front-End Web Developer! 
+<p>
+
+<p>
+During my spare time, I enjoy senior water aerobics, pickling, and spending time with my goldfish, Jerry.
+<p>
+
+<h2>	
+Relevant Experience
+<h2>
+
+<p>	
+Web Developer, Relaxr 2015 - present
+<p>
+<p>
+Developed a multi-column layout blog, landing page, and contact forms that render on mobile devices.
+<p>
+
+<p>
+Web Developer, Startup Matchmaker 2010 - 2015
+<p>
+<p>
+Used a design team's wireframes to develop this company's responsive homepage.
+<p>
+
+<p>
+Web Developer, CitiPix 2005 - 2010
+<p>
+<p>
+Built web app prototype that allows users to store and quickly retrieve photos using keywords.
+<p>
+
+
+<h2>
+EDUCATION
+<h2>
+
+<p>
+Front End Web Development, General Assembly, 2015.
+<p>
+
+<p>
+Bachelor of Science, Computer Science, College of Soft Knocks, 2009.
+<p>
+
+<p>
+High School Diploma (Honors), School of Hard Knocks, 2005. 
+<p>
+
+
+
+<body>
+<html>
+
