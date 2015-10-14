@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Joe Johnson Developer</title>
-	<link rel="stylesheet" href="style.css" type="text/css" />
+	
 </head>
 <body>
 
@@ -22,8 +22,9 @@
 <p>	Web Developer, Relaxr 2015 - present</p>
 <p>Developed a multi-column layout blog, landing page, and contact forms that render on mobile devices.</p>
 
-<img src="images/relaxr.png" alt="ADD ADD ADD ADD ADD ADD">
-
+<p>
+<img src="relaxr.png" alt="relaxr" />
+</p>
 
 
 <p>Web Developer, Startup Matchmaker 2010 - 2015</p>
