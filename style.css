@@ -1,7 +1,67 @@
+.topline{
+
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-family: calibri;
+	font-size: 18px;
+}
+
+.IENJOYLIFE{
+
+	color: navy;
+	text-align: center;
+	font-weight: bold;
+	font-family: calibri;
+	font-size: 18px;
+}
+
+h1{
+
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-family: calibri;
+	font-size: 36px;
+}
+
+h2{
+	color: navy;
+	font-weight: bold;
+	font-family: calibri;
+	font-size: 30px;
+}
+
 body{
-	background: purple;
+
+	background: whitesmoke;
+	font-family: calibri;
+}
+
+/*JobEntry is a subset of body*/
+.JobEntry{
+	
+	background: whitesmoke;
+	font-family: calibri;
+	font-weight: bold;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 
 }
 
 
+img{
 
+	border: 2px navy;
+	height: 300px;
+	width: 300px;
+}
+
+.exceptionPicture{
+
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+	width: 500px;
+}
