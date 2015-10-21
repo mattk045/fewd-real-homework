@@ -1,10 +1,93 @@
 .div1{
+
+height: 350px;
+
 background-image: url("header_bg.jpg");
+background-size: 100% 100%;
 
 }
 
-body{
-background-image: url("header_bg.jpg");
+	.div1-firstp{
 
+	color:white;
+	font-size: 24px;
+
+	font-weight: bolder;
+
+	padding-top: 24pt;	
+	text-indent: 70pt;
+
+
+	}
+
+	.div1-secondp{
+
+	color:white;
+	font-size: 24px;
+
+	font-weight: bold;
+
+	padding-top: 0;
+	text-align: center;
+	padding-bottom: 4pt;
+		
+	}
+
+	.div1-thirdp{
+	text-align: center;
+	}
+
+
+	.div1-button{
+
+	border-radius: 5px;
+	width: 120px;
+	background: #f9e42e;	
+	color: #033048;
+	font-size: 14px;
+
+	font-weight: bolder;
+
+	}
+
+
+
+.div2{
+
+height: 200px;
+background: #f0efef;
 
 }
+
+	.div2-firstp{
+	
+	color:#033048;
+	font-size: 24px;
+
+	font-weight: bolder;
+
+	padding-top: 24pt;	
+	text-indent: 70pt;
+
+	}
+
+
+	.div2-secondp{
+	
+	color:#033048;
+	font-size: 13px;
+	font-weight: lighter;
+	text-indent: 70pt;
+
+	}
+
+
+	.div2-list{
+	margin-left: 70pt;
+	color:#033048;
+	font-size: 13px;
+	font-weight: lighter;
+	
+	}	
+
+

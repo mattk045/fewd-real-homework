@@ -1,11 +1,18 @@
 .div1{
-background-image: url("header_bg.jpg");
-background-size: 100px;
-background-position: center;
+
+height: ;
+
+
 }
+
+
+
+
 
 body{
 
 
 
 }
+
+
