@@ -1,0 +1,43 @@
+.toprow{
+	background: #D8D8D8;
+	border: 1px solid purple;
+	margin-bottom: 20px;
+	padding: 50px;
+	
+
+}
+
+.middlerow{
+	background: #D8D8D8;
+	border: 1px solid purple;
+	margin-bottom: 20px;
+	padding: 150px;
+	}
+
+.middleleft{
+	width: 20%;
+}
+
+
+.main{
+
+	width: 62%;
+	float: left;
+	margin-right: 20px;
+}
+
+
+.sidebar{
+	width: 35%;
+	float: right;
+}
+
+
+header,
+footer{
+	clear: both;
+	float: left;
+	width: 100%;
+
+
+}

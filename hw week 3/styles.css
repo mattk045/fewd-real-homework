@@ -1,0 +1,50 @@
+.toprow{
+	width: 100%;
+	background: #D8D8D8;
+	border: 1px solid purple;
+	margin-bottom: 20px;
+	height: 50px;
+	
+}
+
+.wrapper {
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+
+.middlerow{	background: #D8D8D8;
+	border: 1px solid purple;
+		height: 150px;
+		}
+
+.middleleft{
+	width: 15%;
+	float: left;
+	margin-right: 10px;
+}
+
+.middlecenter{
+	width: 68%;
+	float: left; 
+	margin-right: 10px;
+}
+
+.middleright{
+	width: 15%;
+	float: right;
+}
+
+
+.wrapper2{
+	width: 100%;
+	margin-bottom: 20px;
+	background: #D8D8D8;
+	border: 1px solid purple;
+	height: 50px;
+}
+
+.bottomrow{
+		
+}
+
