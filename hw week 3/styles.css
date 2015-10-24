@@ -1,50 +1,127 @@
-.toprow{
+.topStripe{
+
+	position: relative;
+	display: block;
 	width: 100%;
-	background: #D8D8D8;
-	border: 1px solid purple;
-	margin-bottom: 20px;
-	height: 50px;
-	
-}
+	background: black;
+	height: 100px;
+	border-bottom: 3px solid yellow;
+	overflow: hidden;
 
-.wrapper {
-	width: 100%;
-	margin-bottom: 20px;
 
 }
 
-.middlerow{	background: #D8D8D8;
-	border: 1px solid purple;
-		height: 150px;
-		}
+.topTitle{
 
-.middleleft{
-	width: 15%;
-	float: left;
-	margin-right: 10px;
+	width: 300px;
+	color: yellow;
+	font-size: 36px;
+	margin: 20px;
+	float left;
 }
 
-.middlecenter{
-	width: 68%;
-	float: left; 
-	margin-right: 10px;
-}
 
-.middleright{
-	width: 15%;
+
+.topList{
+
 	float: right;
+	margin: 10px;
 }
 
 
-.wrapper2{
+.toplist > li {
+
+
+	text-decoration: none;
+	display:inline-block;
+	list-style: none;
+	color: white;
+	padding: 10px;
+
+}
+
+.listFeatured{
+
+	text-decoration: none;
+	display:block;
+	list-style: none;
+	color: white;
+	padding: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+}
+
+.toplist > li:hover {
+
+
+	text-decoration: none;
+	display:inline-block;
+	list-style: none;
+	color: yellow;
+	padding: 10px;
+
+}
+
+.secondStripe{
+	
+	background: grey;
+	padding: 20px;
+	text-align: center;
+
+
+}
+
+
+.thirdStripeMiddlewPic{
+
+	position: relative;
+	display: block;
+	clear: both;
+	overflow: hidden;
+	margin: 0;
+	padding:0;
 	width: 100%;
-	margin-bottom: 20px;
-	background: #D8D8D8;
-	border: 1px solid purple;
-	height: 50px;
+	background: url("coworking.jpg") no-repeat top center;
+	background-size: cover;
 }
 
-.bottomrow{
-		
+.featuredbox{
+
+	position: relative;
+	display: block;
+	overflow:hidden;
+	width:400px;
+	float: right;
+	padding: 30px;
+	margin: 20px;
+	background: rgba(255,255,255,0.6);
 }
 
+.featureTitle{
+
+
+
+}
+
+.featureBody{
+
+
+
+}
+
+.featureButton{
+
+
+
+}
+
+}
+
+.stripe3buckets{
+
+
+
+
+
+}
