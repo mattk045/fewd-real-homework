@@ -1,0 +1,70 @@
+.container{
+
+
+height: 50px;
+background: red;
+display: block;
+
+margin: 10px;
+}
+
+.top_bar{
+
+}
+
+.middle_bar{
+
+display: block;
+height: 100px;
+margin: 10px;
+
+
+
+}
+
+
+.middle_left{
+background: blue;
+
+height: 100px;
+width: 32%;
+float: left;
+margin-right: 2.0%;
+
+
+}
+
+.middle_middle{
+
+background: blue;
+
+height: 100px;
+width: 32%;
+float: left;
+margin-right: 2.0%;
+
+}
+
+.middle_right{
+
+background: blue;
+
+height: 100px;
+width: 32%;
+float: right;
+
+
+}
+
+
+.bottom_bar{
+
+clear: both;
+background: grey;
+height: 50px;
+display: block;
+margin: 10px;
+
+
+
+}
