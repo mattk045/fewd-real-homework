@@ -54,31 +54,49 @@ body{
 
 .rel_top_bar{
 
-background: #121212;
+background: #033048;
 width: 940px;
-height: 10%;
+height: 100px;
+
+display: block;
 
 }
 
 
 .rel_top_title{
 
+margin-left: 40px;
+margin-top: 30px;
 color: white;
+display: inline;
+
+float: left;
 
 }
-
 
 .rel_top_links{
+float: right;
 
-color: #f9e42e
+padding-top: 30px;
+padding-right: 30px;
+}
+
+.rel_top_links > li{
+
+display: inline;
+color: #f9e42e;
+
+padding: 10px;
 
 }
+
 
 .rel_main{
 width: 700px;
 display: block;
 float:left;
 background: #f0efef;
+
 }
 
 .rel_main_leftcolumn{
