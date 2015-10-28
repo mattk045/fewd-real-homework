@@ -53,42 +53,42 @@ body{
 }
 
 .rel_top_bar{
-
 background: #033048;
 width: 940px;
-height: 100px;
-
+height: 80px;
 display: block;
-
 }
 
 
-.rel_top_title{
+    .rel_top_title{
+    margin-left: 40px;
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+    display: inline;
+    line-height: 80px;
+    float: left;
+    }
 
-margin-left: 40px;
-margin-top: 30px;
-color: white;
-display: inline;
+    .rel_top_links{
+    float: right;
+    padding-right: 70px;
+    }
 
-float: left;
+        .rel_top_links > li{
+        line-height: 80px;
+        display: inline;
+        padding: 16px;
+        }
 
-}
+        .top_links {
+        color: #f9e42e;
+        text-decoration: none;
+        }
 
-.rel_top_links{
-float: right;
-
-padding-top: 30px;
-padding-right: 30px;
-}
-
-.rel_top_links > li{
-
-display: inline;
-color: #f9e42e;
-
-padding: 10px;
-
-}
+              .top_links:hover{
+              font-style: italic;
+              }
 
 
 .rel_main{
@@ -96,14 +96,56 @@ width: 700px;
 display: block;
 float:left;
 background: #f0efef;
-
 }
 
 .rel_main_leftcolumn{
+}
 
+    .rel_main_firstpost_title{
+    margin-top: 42px;
+    margin-bottom: 14px;
+    font-size: 28px;
+    font-weight: 600;
+    color:  #033048;
+    margin-left: 40px;
+    }
+
+    .boat_crew_image{
+    margin-left: 40px;
+    margin-bottom: 14px;
+    width: 660px;
+}
+
+    .rel_main_firstpost_container{
+    margin-left: 40px;
+    color:  #121212;
+    margin-bottom: 24px;
+    }
+
+
+         .firstcharacter{
+          font-weight: 600;
+          font-size: 42px;
+          }
+
+          .rel_main_firstpost_body{
+          display: inline;
+          font-size: 21px;
+          font-weight: 300;
+          }
+
+.rel_read_more{
+
+float: right;
+font-weight: 800;
+font-size: 24px;
+color:  #033048;
 
 }
 
+.under{
+  clear: both;
+}
 .rel_sidebar{
 width: 240px;
 display: block;
@@ -113,6 +155,4 @@ background: #f0efef;
 }
 
 
-
-background: #f0efef;
 
