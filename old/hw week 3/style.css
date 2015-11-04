@@ -58,7 +58,6 @@ background: #033048;
 width: 940px;
 height: 90px;
 display: block;
-margin: 0 auto;
 }
 
 
@@ -95,8 +94,6 @@ font-style: italic;
 
 .rel_middle_row{
   height: 1446px;
-  width: 940px;
-margin: 0 auto;
 }
 
 .rel_main{
@@ -176,9 +173,7 @@ margin-top: 32px;
   clear: both;
   height: 80px;
   background-color: #f9e42e;
-margin: 0 auto;
 }
-
 
         .rel_mid_footer_para{
           text-align: center;
@@ -202,7 +197,7 @@ margin: 0 auto;
   }
 
 .rel_bottom_footer{
-margin: 0 auto;
+
   background: black;
   display: block;
   width: 940px;
