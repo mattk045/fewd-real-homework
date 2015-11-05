@@ -1,24 +1,30 @@
-jQuery(document).ready(function(){
-
-	$("p").hide();
-
-
-
-
-});
-
-/**
-
 function colorChange(){
 	$("body").css("background-color", "white")
+
 }
 
 $("p").click(colorChange);
 
-function clickTest(){
+$("#hidden").hide();
+
+$("h1").click(hideTest);
+
+function hideTest(){
 	$("#hidden").slideToggle()
 }
-$("h1").click(clickTest);
+
+
+
+
+$("h2").click(rollupTest);
+
+function rollupTest(){
+	$("#hidden").slideUp()
+}
+
+
+/**
+
 
 $('body').click(colorChange);
 

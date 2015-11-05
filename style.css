@@ -145,6 +145,21 @@ background: #f0efef;
           font-weight: 300;
           }
 
+          #rel_main_popout1 {
+          margin-top: 10px;
+                    
+          }
+          
+          .rel_main_readless_hide{
+          float: right;
+          font-weight: 800;
+          font-size: 24px;
+          color:  #033048;
+          margin-bottom: 22px;
+
+
+          }
+
           .rel_main_post_read_more{
 
           float: right;
