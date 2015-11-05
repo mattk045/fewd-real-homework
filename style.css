@@ -156,7 +156,7 @@ background: #f0efef;
           font-size: 24px;
           color:  #033048;
           margin-bottom: 22px;
-
+          text-decoration: none;
 
           }
 
@@ -314,6 +314,13 @@ padding-bottom: 6px;
 font-size: 20px;
 font-weight: 400;
 }
+
+#rel_sidebar_popout{
+margin-top: 10px;
+margin-bottom: 5px;
+}
+
+
 
 .rel_sidebar_links_bold{
 font-size: 20px;

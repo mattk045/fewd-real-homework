@@ -2,6 +2,8 @@ jQuery(document).ready(function(){
 
 $("#rel_main_popout1").hide()
 $(".rel_main_readless_hide").hide()
+$("#rel_sidebar_popout").hide()
+$("#rel_sidebar_read_less").hide()
 
 function showMoreFirstPost(){
 $("#rel_main_popout1").slideDown()
@@ -20,86 +22,23 @@ $("#rel_main_1stpost_read_more").show()
 
 $(".rel_main_readless_hide").click(showLessFirstPost);
 
-
-
-
-
-
-function test(){
-$(".rel_top_bar").css("background", "red")
+function showMoreSidebar(){
+$("#rel_sidebar_popout").slideDown()
+$("#rel_sidebar_read_less").show()
+$("#rel_sidebar_read_more").hide()
 }
 
-$(".rel_top_title").click(test);
+$("#rel_sidebar_read_more").click(showMoreSidebar);
+
+function showLessSidebar(){
+$("#rel_sidebar_popout").slideUp()
+$("#rel_sidebar_read_less").hide()
+$("#rel_sidebar_read_more").show()
+}
+
+$("#rel_sidebar_read_less").click(showLessSidebar);
+
+
+
 
 });
-
-/**
-function clickReadMore(){
-this is the first one
-}
-
-$(".rel_main_post_read_more").click(clickReadMore);
-
-function clickReadMore(){
-this is the second one
-}
-
-$(".rel_main_post_read_more").click(clickReadMore);
-
-
-
-
-function colorChange(){
-	$("body").css("background-color", "white")
-
-}
-
-$("p").click(colorChange);
-
-
-
-
-
-
-
-
-
-
-
-
-
-		function question1(){
-		$("replaceMe").css("replaceMe", "replaceMe");
-	}
-
-	$("#button1").click(question1);
-
-*/
-/**
-	function question2(){
-	 	$("h2").html("Matthew J Kennedy");
-	 }
-
-	$("#button1").click(question2);
-	*/
-
-	/**function question3(){
-		$(".falseFact").text("True Fact");
-	 }
-
-	 $("#button1").click(question3);
-	 ;
-
-	 */
-
-	/**function question4(){
-		$("body").css('background-color','pink')
-}
-	$("button2").click(question4); */
-
-	/**function question7(){
-		$("h1").text("jQuery Ninja");
-	 }
-
-	 $("#button3").click(question7);
-	 */
