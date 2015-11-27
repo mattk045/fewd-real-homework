@@ -13,7 +13,7 @@ $(window).resize(function(){
 
      $('.site-header').css("background-color", "pink")
 
-     $('.horizontal-nav li').css('display', 'inline-block')
+    $('.horizontal-nav li').css('display', 'inline-block')
 
 Candy = 0;
 
@@ -25,13 +25,11 @@ Candy = 0;
 
 $(window).resize(function(){     
 
-  if (Candy == 0 && $('header').width() < 810){
+  if (Candy == 0 && $('header').width() < 869){
 
-
+$('.horizontal-nav li').css('display', 'block')
+$('.horizontal-nav li').css('text-align', 'center')
 $('.horizontal-nav li').hide()
-//$('.horizontal-nav li').css('display', 'block')
-//$('.horizontal-nav li').css('text-align', 'center')
-
 $('.site-header').css("background-color", "red")
 
 Candy = 1;
@@ -41,7 +39,7 @@ Candy = 1;
 
 $(window).resize(function(){     
 
-  if (Candy == 1 && $('header').width() < 810){
+  if (Candy == 1 && $('header').width() < 869){
 
 //$('.horizontal-nav li').css('display', 'block')
 //$('.horizontal-nav li').css('text-align', 'center')

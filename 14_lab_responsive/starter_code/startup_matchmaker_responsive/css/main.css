@@ -214,7 +214,7 @@ a {
 
 
 
-@media all and (max-width: 810px) {
+@media all and (max-width: 869px) {
    
     .block{
     padding: 10 20px;
@@ -239,7 +239,7 @@ a {
  .mobileHide {
    display: block !important;
    text-align: center !important;
-
+    color: blue;
 }
 
 
