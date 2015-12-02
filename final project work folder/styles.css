@@ -28,9 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
-body {
-  line-height: 1;
-}
+
 ol, ul {
   list-style: none;
 }
@@ -51,13 +49,19 @@ body{
 	}
 
 .top{
-	background-image: url("trees.jpg");
+	background:
+	   linear-gradient(
+      rgba(135, 206, 250, 0.35), 
+      rgba(135, 206, 250, 0.35)
+    ),
 
-  background-size: 100% 100%;
+	url("trees.jpg");
+  background-size: cover;
+
 	color: white;
 	height: 400px;	
 	width: 1080px;
-
+	
 	margin: 0 auto;
 	}
 
@@ -72,15 +76,36 @@ body{
 }
 
 .middle-left{
+background:
+	   linear-gradient(
+      rgba(187, 255, 255, 0.35), 
+      rgba(187, 255, 255, 0.35)
+    ),
+
+	url("notts.jpg");
+
+
+
+
+  background-size: cover;
 	float: left;
-background-color: orange;
+
 width: 380px;
 height: 400px;
 }
 
 .middle-right{
 	float: right;
-background-color: blue;
+background:
+	   linear-gradient(
+      rgba(211, 211, 211, 0.25), 
+      rgba(211, 211, 211, 0.25)
+    ),
+
+	url("climb.jpg");
+
+
+  background-size: cover;
 width: 700px;
 height: 400px;
 }
@@ -96,15 +121,17 @@ height: 400px;
 }
 
 .bottom-left{
-	float: left;
-background-color: gray;
+float: left;
+background-image: url("baseball.jpg");
+background-size: cover;
 width: 600px;
 height: 400px;
 }
 
 .bottom-right{
-	float: right;
-background-color: purple;
+float: right;
+background-image: url("interior.jpg");
+background-size: cover;
 width: 480px;
-height: 300px;
+height: 400px;
 }
