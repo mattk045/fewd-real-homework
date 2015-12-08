@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+	<title>Natural Patterns</title>
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+	<div class="Top_Bar">
+
+		<h1 id="title">Natural Patterns</h1>
+	</div>
+
+
+	<div class="Middle">
+		<div class="Middle_Left" id="climbPhoto">
+		</div>
+
+
+		<div class="Middle_Right">
+
+			<p class = "Middle_Text">The concept of <span>natural patterns
+			</span> links three of my main interests: philosophy, rock climbing, and computer programming or software engineering. </p>
+
+			<p class = "Middle_Text">One similarity is that <span>in each discipline, there is often a natural way through a problem.</span> This way can be novel, unexpected, and even controversial; but the common examples always combine elegance and effectiveness.</p>
+
+			<p class = "Middle_Text">I studied philosophy as an undergraduate, continuing through graduate school (in Scotland and at Notre Dame), then going back to the United Kingdom for four years as a member of the philosophy faculty at the University of Nottingham.</p>
+
+			<p class = "Middle_Text">After returning to the States, I became interested in rock climbing through films like <span>180 South</span> and <span>To the Limit</span>. However, it was a couple of years before I actually went to a climbing center -- <span>EarthTreks</span> -- in late 2014. Since then I have been back almost every weekend and frequently during the week as well.</p>
+
+			<p class = "Middle_Text">My interest in programming is somewhat similar, in that I've had this interest for several years, without successfully pursuing and developing it. But after reading an interesting book in fall 2015 -- John Kotter's <span>Leading Change </span> -- I am pursuing programming with more urgency, and with a better understanding of the process, and the possibilities.</p> 
+
+		</div>
+
+	<div>
+
+	<div class = "Bottom">
+		<div class = "Bottom_Left">
+			<h2>Contact Information</h2>
+			<ul style="list-style-type:none">
+				<li>Matthew Kennedy
+				<li>kennedy.[excerpted]@gmail.com
+			</ul>
+
+				
+		</div>
+	
+		<div class = "Bottom_Right" id ="treePhoto">
+		</div>
+
+
+	</div>
+<script>
+
+function mouseoverName() {
+    document.getElementById("title").style.color = "blue";
+}
+function mouseoutName() {
+    document.getElementById("title").style.color = "black";
+}
+
+function mouseoverclimbPhoto(){
+	document.getElementById("climbPhoto").className = "Middle_Left_Alt";
+}
+function mouseoutclimbPhoto(){
+	document.getElementById("climbPhoto").className = "Middle_Left";
+}
+
+function mouseovertreePhoto(){
+	document.getElementById("treePhoto").className = "Bottom_Right_Alt";
+}
+function mouseouttreePhoto(){
+	document.getElementById("treePhoto").className = "Bottom_Right";
+}
+
+document.getElementById("title").onmouseover = mouseoverName;
+document.getElementById("title").onmouseout = mouseoutName;
+
+document.getElementById("climbPhoto").onmouseover = mouseoverclimbPhoto;
+document.getElementById("climbPhoto").onmouseout = mouseoutclimbPhoto;
+
+document.getElementById("treePhoto").onmouseover = mouseovertreePhoto;
+document.getElementById("treePhoto").onmouseout = mouseouttreePhoto;
+
+</script>
+
+
+
+</body>
+
+
+
+</html>
