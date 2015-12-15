@@ -39,6 +39,7 @@ span{
 }
 
 .jumpout{
+	display: block;
 width: 250px;
 height: 100px;
 margin: auto;
@@ -135,7 +136,7 @@ background: black;
 
 	background-size: cover;
 
-	min-height: 350px;
+	min-height: 450px;
 }
 
 .bottom_left_alt{
@@ -147,14 +148,14 @@ background: black;
 
 	background-size: cover;
 
-	min-height: 350px;
+	min-height: 450px;
 }
 
 
 .bottom_right{
 	float: right;
 	width: 75%;
-	min-height: 350px;
+	min-height: 450px;
 	
 
 	background: 
@@ -183,7 +184,7 @@ background: black;
 
 	float: right;
 	width: 75%;
-	min-height: 350px;
+	min-height: 450px;
 
 	background: 
 	
@@ -249,7 +250,7 @@ width: 100%;
 padding-top: 10px;
 	background-size: contain;
 
-	min-height: 250px;
+	min-height: 450px;
 }
 
 .bottom_left_alt{
@@ -261,13 +262,13 @@ padding-top: 10px;
 
 	background-size: contain;
 
-	min-height: 250px;
+	min-height: 450px;
 }
 
 .bottom_right{
 	float: right;
 	width: 100%;
-	min-height: 350px;
+	min-height: 450px;
 	
 
 	background: 
@@ -313,7 +314,7 @@ width: 100%;
 
 	
 	width: 100%;
-	min-height: 350px;
+	min-height: 450px;
 	
 	background: 
 	

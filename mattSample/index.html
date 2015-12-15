@@ -67,6 +67,13 @@
 
 <script>
 
+document.getElementsByClassName("jumpout")[0].style.display = "none";
+
+document.getElementsByClassName("jumpout")[1].style.display = "none";
+
+document.getElementsByClassName("jumpout")[2].style.display = "none";
+
+document.getElementsByClassName("jumpout")[3].style.display = "none";
 
 function mouseoverName() {
     document.getElementById("title").style.color = "blue";
@@ -77,30 +84,38 @@ function mouseoutName() {
 
 function mouseoverclimbPhoto(){
 	document.getElementById("climbPhoto").className = "middle_left_alt";
+	document.getElementsByClassName("jumpout")[0].style.display = "block";
 }
 function mouseoutclimbPhoto(){
 	document.getElementById("climbPhoto").className = "middle_left";
+	document.getElementsByClassName("jumpout")[0].style.display = "none";
 }
 
 function mouseoverbasePhoto(){
 	document.getElementById("basePhoto").className = "bottom_right_alt";
+	document.getElementsByClassName("jumpout")[3].style.display = "block";
 }
 function mouseoutbasePhoto(){
 	document.getElementById("basePhoto").className = "bottom_right";
+	document.getElementsByClassName("jumpout")[3].style.display = "none";
 }
 
 function mouseovermiddleRight(){
 	document.getElementById("middleRight").className = "middle_right_alt";
+	document.getElementsByClassName("jumpout")[1].style.display = "block";
 }
 function mouseoutmiddleRight(){
 	document.getElementById("middleRight").className = "middle_right";
+	document.getElementsByClassName("jumpout")[1].style.display = "none";
 }
 
 function mouseoverduckPhoto(){
 	document.getElementById("duckPhoto").className = "bottom_left_alt";
+	document.getElementsByClassName("jumpout")[2].style.display = "block";
 }
 function mouseoutduckPhoto(){
 	document.getElementById("duckPhoto").className = "bottom_left";
+	document.getElementsByClassName("jumpout")[2].style.display = "none";
 }
 
 
