@@ -2,17 +2,98 @@
 <html lang="en">
 <head>
 
-</head>
+
 	<title>Professional</title>
 
 	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/pagestyle.css">
 
 </head>
 
 <body>
+	<div class = "top_bar">	
+		<h1 id="title">Professional</h1>
+	</div>
 
-	<p>sample text</p>
+	<div class = "meta_container">
+	
+		<div class = "container_top">
+		</div>
+
+		<div class = "container_bottom">
+			<div class ="bottom_quad">
+			<p id = "home"><a href="index.html">Home</a></p>
+			</div>
+			<div class ="bottom_quad">
+			<p id = "climbing"><a href="climbing.html">Climbing</a></p>
+			</div>
+			<div class ="bottom_quad">
+			<p id = "baseball">Baseball</p>
+			</div>
+			<div class ="bottom_quad">
+			<p id = "everything"><a href="everythingelse.html">Everything Else</a></p>
+			</div>
+		</div>
+
+	</div>
+<script>
+
+document.getElementById("home").style.display = "none";
+document.getElementById("climbing").style.display = "none";
+document.getElementById("baseball").style.display = "none";
+document.getElementById("everything").style.display = "none";
+
+
+function mouseoverHome(){
+	document.getElementById("home").style.display = "block";
+}
+function mouseoutHome(){
+	document.getElementById("home").style.display = "none";
+}
+document.getElementsByClassName("bottom_quad")[0].onmouseover = mouseoverHome;
+
+document.getElementsByClassName("bottom_quad")[0].onmouseout = mouseoutHome;
+
+
+
+
+function mouseoverClimbing(){
+	document.getElementById("climbing").style.display = "block";
+}
+function mouseoutClimbing(){
+	document.getElementById("climbing").style.display = "none";
+}
+document.getElementsByClassName("bottom_quad")[1].onmouseover = mouseoverClimbing;
+
+document.getElementsByClassName("bottom_quad")[1].onmouseout = mouseoutClimbing;
+
+
+
+
+function mouseoverBaseball(){
+	document.getElementById("baseball").style.display = "block";
+}
+function mouseoutBaseball(){
+	document.getElementById("baseball").style.display = "none";
+}
+document.getElementsByClassName("bottom_quad")[2].onmouseover = mouseoverBaseball;
+
+document.getElementsByClassName("bottom_quad")[2].onmouseout = mouseoutBaseball;
+
+
+
+function mouseoverEverything(){
+	document.getElementById("everything").style.display = "block";
+}
+function mouseoutEverything(){
+	document.getElementById("everything").style.display = "none";
+}
+document.getElementsByClassName("bottom_quad")[3].onmouseover = mouseoverEverything;
+
+document.getElementsByClassName("bottom_quad")[3].onmouseout = mouseoutEverything;
+</script>
+
+	
 
 </body>
 </html>
