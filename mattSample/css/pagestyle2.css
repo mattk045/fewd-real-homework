@@ -6,8 +6,8 @@
 	background: 
 	  
 
-		url("notts.jpg");
-  	background-size: cover;
+		url("baseball.jpg");
+  	background-size: 100%;
  
 }
 
@@ -15,41 +15,14 @@ h1{
 	padding-top: 60px;
 	padding-left: 15px;
 	color: black;
-
 }
 
-.text_header{
-	margin-top: 0px;
-	padding-top: 20px;
-	padding-left: 30px;
-	overflow: hidden;
-	color: black;
-	font-size: 24px;
-
 }
-
-.text_entries{
-	margin-top: 0px;
-	
-	padding-left: 40px;
-	overflow: hidden;
-	color: black;
-	font-size: 18px;
-
-}
-
-ul{
-	padding-left: 60px;
-	padding-right: 300px;
-	color: black;
-	font-size: 18px;
-}
-
 body{
 
 	font-family: Calibri;
 	background: black;
-max-height: 1360px;
+max-height: 1310px;
 }
 
 .meta_container{
@@ -57,7 +30,7 @@ max-height: 1360px;
 	background-image: url("peaks.jpe");
 	color: white;
 	background-size: cover;
-	min-height: 1050px;
+	min-height: 1000px;
 
 }
 
@@ -65,19 +38,19 @@ max-height: 1360px;
 .container_top{
 	margin: 0 auto;
 	width: 1000px;
-	min-height: 650px;
+	min-height: 600px;
 	background-image: url("concrete_seamless.png");
 }
 
 .container_bottom{
 	margin: 0 auto;
-	margin-top: -17px;
+	
 	width: 1000px;
 	min-height: 400px;
 }
 
 .bottom_quad{
-	
+
 	float:left;
 	width: 238px;
 	margin: 0;
@@ -122,7 +95,7 @@ a:visited
 
 .container_bottom{
 	margin: 0 auto;
-	margin-top: -17px;
+	
 	width: 100%;
 	min-height: 500px;
 }

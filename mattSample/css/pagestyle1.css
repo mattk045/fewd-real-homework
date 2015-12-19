@@ -1,0 +1,268 @@
+.top_bar{
+
+	margin-top: -21px;
+	width: 100%;
+	height: 300px;
+	background: 
+	  
+
+		url("climb.jpg");
+  	background-size: cover;
+ 
+}
+
+h1{
+	padding-top: 60px;
+	padding-left: 15px;
+	color: black;
+
+}
+
+span{
+
+	font-weight: bold;
+}
+
+.text_header{
+	margin-top: 0px;
+	padding-top: 20px;
+	padding-left: 30px;
+	overflow: hidden;
+	color: black;
+	font-size: 24px;
+
+}
+
+.text_entries{
+	
+	margin-top: 0px;
+	padding-left: 40px;
+	margin-right: 15px;
+	overflow: hidden;
+	color: black;
+	font-size: 18px;
+}
+
+img{
+padding: 5px;
+padding-top: 20px;
+margin: 0 auto;
+}
+
+ul{
+	padding-left: 60px;
+	padding-right: 300px;
+	color: black;
+	font-size: 18px;
+}
+
+body{
+
+	font-family: Calibri;
+	background: black;
+max-height: 1210px;
+}
+
+.meta_container{
+	margin-top: 10px;
+	background-image: url("peaks.jpe");
+	color: white;
+	background-size: cover;
+	min-height: 900px;
+
+}
+
+
+.container_top{
+	margin: 0 auto;
+	width: 1000px;
+	min-height: 500px;
+	background-image: url("concrete_seamless.png");
+}
+
+.container_top_left{
+	padding: 20px;
+float: left;
+width: 375px;
+margin-right: 5px;
+}
+
+.container_top_right{
+float: right;
+
+}
+
+.container_bottom{
+	margin: 0 auto;
+	
+	width: 1000px;
+	min-height: 400px;
+}
+
+.bottom_quad{
+
+	float:left;
+	width: 238px;
+	margin: 0;
+	border: white;
+ 	border-width:6px;	
+    border-style:double;
+    min-height: 100px;
+    color: white;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+}
+
+a{
+
+	text-decoration: none;
+	color: white;
+}
+
+a:visited 
+{
+    text-decoration: none; 
+    color: white; 
+}
+
+@media all and (max-width: 965px) {
+
+.text_entries{
+	
+	margin-top: 0px;
+	padding-left: 20px;
+	margin-right: 15px;
+	overflow: hidden;
+	color: black;
+	font-size: 18px;
+}
+
+
+
+body{
+
+	font-family: Calibri;
+	background: black;
+max-height: 1710px;
+}
+
+.meta_container{
+	margin-top: 10px;
+	background-image: url("peaks.jpe");
+	color: white;
+	background-size: cover;
+	min-height: 1400px;
+}
+
+
+.container_top{
+	margin: 0 auto;
+	width: 100%;
+	height: 800px;
+	background-image: url("concrete_seamless.png");
+}
+
+
+
+
+.container_top_left{
+
+width: 100%;
+margin-right: 5px;
+
+}
+
+.container_top_right{
+width: 100%;
+
+}
+img{
+padding-left: 40px;
+
+
+}
+
+.bottom_quad{
+
+	
+	width: 98.3%;
+	margin: 0;
+	border: white;
+ 	border-width:6px;	
+    border-style:double;
+    min-height: 100px;
+    color: white;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.container_bottom{
+	margin: 0 auto;
+	
+	width: 100%;
+	min-height: 410px;
+}
+
+	}
+
+	@media all and (max-width: 545px) {
+img{
+
+	display: none;
+}
+
+.text_entries{
+	
+	margin-top: 0px;
+	padding-left: 10px;
+	margin-right: 15px;
+	overflow: hidden;
+	color: black;
+	font-size: 18px;
+}
+
+
+.container_top{
+	margin: 0 auto;
+	width: 100%;
+	min-width: 375px;
+	max-height: 500px;
+	background-image: url("concrete_seamless.png");
+}
+
+.container_top_left{
+
+width: 100%;
+min-width: 375px;
+margin-right: 5px;
+}
+
+.container_top_right{
+	height: 0;
+}
+
+.meta_container{
+	margin-top: 10px;
+	background-image: url("peaks.jpe");
+	color: white;
+	background-size: cover;
+	max-height: 1200px;
+}
+
+body{
+
+	font-family: Calibri;
+	background: black;
+max-height: 1410px;
+}
+	
+
+	.container_bottom{
+	margin: 0 auto;
+	
+	width: 100%;
+	height: 410px;
+}
+}
