@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+	<title>Everything Else</title>
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/pagestyle3.css">
+
+</head>
+
+<body>
+	<div class = "top_bar">	
+		<h1 id="title">Everything Else</h1>
+	</div>
+
+	<div class = "meta_container">
+	
+		<div class = "container_top">
+			
+			<p class = "text_entries">
+			This is going to be somewhat short of <span>everything</span>. Here are some links to an interesting <span>album</span>, an interesting <span>book</span>, and an interesting <span>film</span>. 
+
+			</p>
+
+						
+			<ul class = "row_of_links">
+				<li><a class = "baseball_links" href="https://www.youtube.com/watch?v=S4g7mPUskW8">Emancipator</a></li>
+			
+			
+				<li><a class = "baseball_links"href="http://www.amazon.com/Leading-Change-With-Preface-Author/dp/1422186431">Leading Change</a></li>
+
+			
+				<li><a class = "baseball_links"href="https://www.criterion.com/films/2954-the-last-days-of-disco">The Last Days of Disco</a></li>
+				</ul>
+		</div>
+			
+
+
+	
+
+		<div class = "container_bottom">
+			<div class ="bottom_quad">
+			<p id = "home"><a href="index.html">Home</a></p>
+			</div>
+			<div class ="bottom_quad">
+			<p id = "climbing"><a href="climbing.html">Climbing</a></p>
+			</div>
+			<div class ="bottom_quad">
+			<p id = "baseball"><a href="professional.html">Professional</a></p>
+			</div>
+			<div class ="bottom_quad">
+			<p id = "everything"><a href="baseball.html">Baseball</a></p>
+			</div>
+		</div>
+
+	</div>
+<script>
+
+document.getElementById("home").style.display = "none";
+document.getElementById("climbing").style.display = "none";
+document.getElementById("baseball").style.display = "none";
+document.getElementById("everything").style.display = "none";
+
+
+function mouseoverHome(){
+	document.getElementById("home").style.display = "block";
+}
+function mouseoutHome(){
+	document.getElementById("home").style.display = "none";
+}
+document.getElementsByClassName("bottom_quad")[0].onmouseover = mouseoverHome;
+
+document.getElementsByClassName("bottom_quad")[0].onmouseout = mouseoutHome;
+
+
+
+
+function mouseoverClimbing(){
+	document.getElementById("climbing").style.display = "block";
+}
+function mouseoutClimbing(){
+	document.getElementById("climbing").style.display = "none";
+}
+document.getElementsByClassName("bottom_quad")[1].onmouseover = mouseoverClimbing;
+
+document.getElementsByClassName("bottom_quad")[1].onmouseout = mouseoutClimbing;
+
+
+
+
+function mouseoverBaseball(){
+	document.getElementById("baseball").style.display = "block";
+}
+function mouseoutBaseball(){
+	document.getElementById("baseball").style.display = "none";
+}
+document.getElementsByClassName("bottom_quad")[2].onmouseover = mouseoverBaseball;
+
+document.getElementsByClassName("bottom_quad")[2].onmouseout = mouseoutBaseball;
+
+
+
+function mouseoverEverything(){
+	document.getElementById("everything").style.display = "block";
+}
+function mouseoutEverything(){
+	document.getElementById("everything").style.display = "none";
+}
+document.getElementsByClassName("bottom_quad")[3].onmouseover = mouseoverEverything;
+
+document.getElementsByClassName("bottom_quad")[3].onmouseout = mouseoutEverything;
+</script>
+
+	
+
+</body>
+</html>
