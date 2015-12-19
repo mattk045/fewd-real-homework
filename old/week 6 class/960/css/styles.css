@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+
+
+.box {
+
+	background-color: grey;
+	height: 150px;
+	padding: 20px;
+	text-align: center;
+}
+
+.boxSlim {
+
+	background-color: grey;
+	height: 75px;
+	padding: 20px;
+	text-align: center;
+	float: right;
+}
+
+.boxTall {
+
+	background-color: grey;
+	height: 600px;
+	padding: 20px;
+	text-align: center;
+}
+
+
+
+.box2x {
+
+	background-color: grey;
+	height: 300px;
+	padding: 20px;
+	text-align: center;
+}
+
+
+.container_12{
+	margin-bottom: 20px;
+}
