@@ -10,7 +10,7 @@ main()
 	long nc; 
 	nc = 0; 
 	
-	while(getchar() != '\n')
+	while(getchar() != '*')
 		++nc;
 	printf("%ld\n", nc);
 }
